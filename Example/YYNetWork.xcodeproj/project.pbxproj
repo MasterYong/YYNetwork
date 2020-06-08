@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		024830B8B746AF9A5829265B /* Pods_YYNetWork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYNetWork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		078C214CEA0E0547AA8E5E16 /* Pods-YYNetWork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYNetWork_Example.release.xcconfig"; path = "Target Support Files/Pods-YYNetWork_Example/Pods-YYNetWork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		56CFC148A6845B30A4BD9061 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5EF1F41AF06F35AB1595D5B7 /* YYNetWork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YYNetWork.podspec; path = ../YYNetWork.podspec; sourceTree = "<group>"; };
+		56CFC148A6845B30A4BD9061 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5EF1F41AF06F35AB1595D5B7 /* YYNetWork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YYNetWork.podspec; path = ../YYNetWork.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* YYNetWork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYNetWork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADC7C3413AC7D736E7137D38 /* Pods-YYNetWork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYNetWork_Example.debug.xcconfig"; path = "Target Support Files/Pods-YYNetWork_Example/Pods-YYNetWork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B8507FC0CFDC323B285A9360 /* Pods-YYNetWork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYNetWork_Tests.release.xcconfig"; path = "Target Support Files/Pods-YYNetWork_Tests/Pods-YYNetWork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D23CC80E893B5AB4EFF8C653 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D23CC80E893B5AB4EFF8C653 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				7DA3A82810E1E720951FECA2 /* Pods-YYNetWork_Tests.debug.xcconfig */,
 				B8507FC0CFDC323B285A9360 /* Pods-YYNetWork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				BCA92D95EC17F4977C9F431C /* [CP] Embed Pods Frameworks */,
+				E62955ABB913C2E641DD19DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -358,7 +358,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YYNetWork_Tests/Pods-YYNetWork_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BCA92D95EC17F4977C9F431C /* [CP] Embed Pods Frameworks */ = {
+		E62955ABB913C2E641DD19DE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
