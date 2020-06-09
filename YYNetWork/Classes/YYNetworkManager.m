@@ -7,7 +7,7 @@
 //
 
 #import "YYNetworkManager.h"
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 //#import "YYUUIDManager.h"
 @implementation YYNetworkManager
 + (BOOL)isNetwork {
